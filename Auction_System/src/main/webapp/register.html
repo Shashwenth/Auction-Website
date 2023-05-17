@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="css/style.css"/> 
+<head>
+<style type="text/css"> 
+form {
+    width: 300px; /* this is needed */
+    height: 200px; /* this is needed */
+    padding: 10px; /* this is for styling only */
+    background: #eee; /* this is for styling only */
+
+    position: absolute; /* this is needed */
+    margin: auto; /* this is needed */
+    left: 0; /* this is needed */
+    right: 0; /* this is needed */
+    top: 0; /* this is needed */
+    bottom: 0; /* this is needed */
+}
+</style> 
+<meta charset="ISO-8859-1">
+<title>New User Registration</title>
+
+</head>
+<div align=center>
+<h1>New User Registration</h1>
+</div>
+<body>
+<div class="container">
+	<div class="form-container">
+<form action="reg-process.jsp" method="post">
+<table>
+<tr>
+  <td> Enter Name: </td>
+  <td><input type=text name=name required></td>
+ </tr>
+ <tr>
+  <td> Enter Username: </td>
+  <td><input type=text name=username required></td>
+ </tr> 
+ <tr>
+  <td> Enter Password: </td>
+  <td><input type=password name=password required></td>
+ </tr>
+ <tr>
+ <tr>
+  <td> Enter email: </td>
+  <td><input type=email name=email required></td>
+ </tr>
+ <tr>
+  <td><input type=submit value=Submit></td>
+  <td><input type=reset></td>
+ </tr> 
+ </table>
+
+
+</form>
+</div>
+</div>
+</body>
+</html>

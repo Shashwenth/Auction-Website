@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*Simple reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /*You can use any kind of background here.*/
+    background: #6b92b9;
+}
+canvas {
+    display: inline;
+}
+
+#centered-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#click-me-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #F44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
